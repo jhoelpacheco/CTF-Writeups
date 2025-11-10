@@ -36,7 +36,7 @@ nmap -sT -sV -p 22,1880,3030,4040 10.10.x.x
 ### Acceso inicial: **Node-RED RCE**
 
 - Puerto `1880` → **Node-RED** vulnerable.
-- Exploit público: [https://gist.github.com/qkaiser/79459c3cb5ea6e658701c7d203a8c297](https://gist.github.com/qkaiser)
+- Exploit (público)[https://gist.github.com/qkaiser/79459c3cb5ea6e658701c7d203a8c297](https://gist.github.com/qkaiser)
 - Ejecución de comando:
   ```bash
   python3 exploit.py http://10.10.x.x:1880
